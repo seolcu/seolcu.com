@@ -45,3 +45,8 @@ params:
   # ShowBreadCrumbs: true
   ShowShareButtons: true
   # ShowReadingTime: true
+  comments: true
+
+services:
+  disqus:
+    shortname: seolcu.com
