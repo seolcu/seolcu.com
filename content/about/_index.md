@@ -3,7 +3,7 @@ title = 'About Me'
 draft = false
 +++
 
-{{< figure align=center src="/blog-profile.jpeg" width="250" >}}
+# 🐧 seolcu
 
 Welcome! My name is **Gyuwon Seol**, and I am a sophomore at the [Ajou University](https://www.ajou.ac.kr/en/index.do), majoring in Software Engineering.
 I live in South Korea.
