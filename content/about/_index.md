@@ -3,11 +3,9 @@ title = 'About Me'
 draft = false
 +++
 
-## Welcome!
-
 {{< figure align=center src="/blog-profile.jpeg" width="250" >}}
 
-My name is **Gyuwon Seol**, and I am a sophomore at the Ajou University, majoring in Software Engineering.
+Welcome! My name is **Gyuwon Seol**, and I am a sophomore at the Ajou University, majoring in Software Engineering.
 I live in South Korea.
 
 - I can code in `python`, `JavaScript`, `C`, and `bash`.
