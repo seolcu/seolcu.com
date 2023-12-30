@@ -43,7 +43,7 @@ params:
       url: https://www.linkedin.com/in/%EA%B7%9C%EC%9B%90-%EC%84%A4-9b2027290/
 
   # ShowBreadCrumbs: true
-  ShowShareButtons: true
+  # ShowShareButtons: true
   # ShowReadingTime: true
   comments: true
 
