@@ -13,18 +13,7 @@ menu:
       name: Blog
       url: /blog/
       weight: 20
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 30
-    - identifier: github
-      name: Github
-      url: https://github.com/seolcu
-      weight: 40
-    - identifier: linkedin
-      name: LinkedIn
-      url: https://www.linkedin.com/in/%EA%B7%9C%EC%9B%90-%EC%84%A4-9b2027290/
-      weight: 50
+
 params:
   env: production
   profileMode:
