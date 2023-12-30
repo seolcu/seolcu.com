@@ -12,7 +12,7 @@ I live in South Korea.
 - I am familiar with `React`, `Linux`, and `Git`.
 - I am interested in `System Hacking`, `Linux Desktop Environments`, `Homelab`, and `Privacy`.
 
-> _BTW, I use Debian Testing with GNOME as my daily driver._
+> _BTW, I use `Debian Testing` with `GNOME` as my daily driver._
 
 # My Projects
 
@@ -56,9 +56,25 @@ It was supposed to provide information about:
 
 Since it is a prototype, it **does not provide the real information.**
 
-This project was made for the AI Introduction course at Ajou University.
+This project was built for the AI Introduction course at Ajou University.
 
 It is built with [React](https://react.dev), [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
+
+## ajou-ground (2023-03-18 ~ 2023-03-19)
+
+![screenshot of ajou-ground](ajou-ground-screenshot.gif)
+
+[Link to the website](https://ajou.dev/)
+
+[Github Repository](https://github.com/AJOUChakra7/ajou-ground)
+
+A prototype website to make a reservation for the Ajou University's playground.
+
+Since it is a prototype, it **does not provide the real information.**
+
+This project was built by my team, `Chakra7`, in a school hackathon called `AjouThon`, and it won the 2nd place.
+
+It is built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Express](https://expressjs.com/), and [MongoDB](https://www.mongodb.com/).
 
 ## hanbit27 (2021-09-01 ~ 2021-12-23)
 
@@ -68,7 +84,7 @@ It is built with [React](https://react.dev), [Vite](https://vitejs.dev/) and [Ta
 
 [Github Repository](https://github.com/seolcu/hanbit27)
 
-A shopping mall website officially used for the 27th festival of the GwangyangJecheol High School.
+A shopping mall website officially used for the 27th annual festival of the GwangyangJecheol High School.
 Since the festival is over, the website no longer shows the products.
 
 It is built with [Next.js](https://nextjs.org/), [Bootstrap](https://getbootstrap.com/), and [Firebase](https://firebase.google.com/).
@@ -87,7 +103,7 @@ It provides information about:
 - Today's menu
 - Link to the school's various websites
 
-This project was made in place of the service, [zego.life by JedBeom](https://github.com/JedBeom/zego.life), which was discontinued.
+This project was built in place of the service, [zego.life by JedBeom](https://github.com/JedBeom/zego.life), which was discontinued.
 
 It is built with [React](https://react.dev), [Vite](https://vitejs.dev/), and [Chakra UI](https://chakra-ui.com/).
 
