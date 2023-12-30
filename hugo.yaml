@@ -31,6 +31,8 @@ params:
         url: /blog/
 
   socialIcons:
+    - name: Email
+      url: mailto:seolcu@seolcu.com
     - name: Github
       url: https://github.com/seolcu/
     - name: LinkedIn
