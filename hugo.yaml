@@ -18,7 +18,7 @@ params:
   env: production
   profileMode:
     enabled: true
-    title: "seolcu (Gyuwon Seol)"
+    title: "seolcu"
     subtitle: "Software Major Student in South Korea.\n\nInterested in Linux, FOSS, and Security."
     imageUrl: "penguin-emoji-512x512.png"
     imageTitle: "Handmade Tux Doll"
