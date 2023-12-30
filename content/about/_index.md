@@ -8,9 +8,13 @@ draft = false
 {{< figure align=center src="/blog-profile.jpeg" width="250" >}}
 
 My name is **Gyuwon Seol**, and I am a junior at the Ajou University, majoring in Software Engineering.
-You can call me **seolcu**. (all lowercase)
+I live in South Korea.
 
-I am interested in **Linux, Free and Open Source Software, and Digital Security**.
+- I can code in `python`, `JavaScript`, `C`, and `bash`.
+- I am familiar with `React`, `Linux`, and `Git`.
+- I am interested in `System Hacking`, `Linux Desktop Environments`, `Homelab`, and `Privacy`.
+
+> _BTW, I use Debian Testing with GNOME as my daily driver._
 
 ## My Projects
 
@@ -88,3 +92,7 @@ It provides information about:
 This project was made in place of the service, [zego.life by JedBeom](https://github.com/JedBeom/zego.life), which was discontinued.
 
 It is built with [React](https://react.dev), [Vite](https://vitejs.dev/), and [Chakra UI](https://chakra-ui.com/).
+
+### Etc.
+
+You can find my other projects on my [Github profile](https://github.com/seolcu).
