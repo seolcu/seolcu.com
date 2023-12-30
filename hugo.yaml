@@ -17,19 +17,22 @@ menu:
 params:
   defaultTheme: dark
   env: production
-  profileMode:
-    enabled: true
-    title: "seolcu"
-    subtitle: "Software Major Student in South Korea.\n\nInterested in Linux, FOSS, and Security."
-    imageUrl: "penguin-emoji-512x512.png"
-    imageTitle: "Handmade Tux Doll"
-    # imageWidth: 120 # custom size
-    # imageHeight: 120 # custom size
-    buttons:
-      - name: About Me
-        url: /about/
-      - name: Blog
-        url: /blog/
+  homeInfoParams:
+    Title: "🐧 seolcu"
+    Content: "Software Major Student in South Korea.\n\nInterested in Linux, FOSS, and Security."
+  # profileMode:
+  #   enabled: true
+  #   title: "seolcu"
+  #   subtitle: "Software Major Student in South Korea.\n\nInterested in Linux, FOSS, and Security."
+  #   imageUrl: "penguin-emoji-512x512.png"
+  #   imageTitle: "Handmade Tux Doll"
+  #   # imageWidth: 120 # custom size
+  #   # imageHeight: 120 # custom size
+  #   buttons:
+  #     - name: About Me
+  #       url: /about/
+  #     - name: Blog
+  #       url: /blog/
 
   socialIcons:
     - name: Email
