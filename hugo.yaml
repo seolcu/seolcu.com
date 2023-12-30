@@ -2,3 +2,51 @@ baseURL: https://seolcu.com/
 languageCode: en-us
 title: seolcu.com
 theme: PaperMod
+
+menu:
+  main:
+    - identifier: about
+      name: About Me
+      url: /about/
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: github
+      name: Github
+      url: https://github.com/seolcu
+      weight: 40
+    - identifier: linkedin
+      name: LinkedIn
+      url: https://www.linkedin.com/in/%EA%B7%9C%EC%9B%90-%EC%84%A4-9b2027290/
+      weight: 50
+params:
+  env: production
+  profileMode:
+    enabled: true
+    title: "seolcu (Gyuwon Seol)"
+    subtitle: "Software Major Student in South Korea.\n\nInterested in Linux, FOSS, and Security."
+    imageUrl: "tux.jpg"
+    imageTitle: "Handmade Tux Doll"
+    # imageWidth: 120 # custom size
+    # imageHeight: 120 # custom size
+    buttons:
+      - name: About Me
+        url: /about/
+      - name: Blog
+        url: /blog/
+
+  socialIcons:
+    - name: Github
+      url: https://github.com/seolcu/
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/%EA%B7%9C%EC%9B%90-%EC%84%A4-9b2027290/
+
+  # ShowBreadCrumbs: true
+  ShowShareButtons: true
+  # ShowReadingTime: true
