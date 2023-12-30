@@ -20,7 +20,7 @@ params:
     enabled: true
     title: "seolcu (Gyuwon Seol)"
     subtitle: "Software Major Student in South Korea.\n\nInterested in Linux, FOSS, and Security."
-    imageUrl: "tux.jpg"
+    imageUrl: "handmade_tux_225x225.jpg"
     imageTitle: "Handmade Tux Doll"
     # imageWidth: 120 # custom size
     # imageHeight: 120 # custom size
