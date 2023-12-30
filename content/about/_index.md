@@ -7,7 +7,7 @@ draft = false
 
 {{< figure align=center src="/blog-profile.jpeg" width="250" >}}
 
-My name is **Gyuwon Seol**, and I am a junior at the Ajou University, majoring in Software Engineering.
+My name is **Gyuwon Seol**, and I am a sophomore at the Ajou University, majoring in Software Engineering.
 I live in South Korea.
 
 - I can code in `python`, `JavaScript`, `C`, and `bash`.
