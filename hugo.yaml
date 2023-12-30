@@ -20,7 +20,7 @@ params:
     enabled: true
     title: "seolcu (Gyuwon Seol)"
     subtitle: "Software Major Student in South Korea.\n\nInterested in Linux, FOSS, and Security."
-    imageUrl: "handmade_tux_225x225.jpg"
+    imageUrl: "penguin-emoji-512x512.png"
     imageTitle: "Handmade Tux Doll"
     # imageWidth: 120 # custom size
     # imageHeight: 120 # custom size
