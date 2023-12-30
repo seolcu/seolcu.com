@@ -49,4 +49,4 @@ params:
 
 services:
   disqus:
-    shortname: seolcu.com
+    shortname: seolcu-com
