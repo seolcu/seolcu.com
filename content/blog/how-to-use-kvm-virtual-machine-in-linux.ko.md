@@ -91,8 +91,6 @@ sudo usermod -a -G libvirt $(whoami)
 sudo virsh net-autostart default
 ```
 
-> 📘
->
 > 또는, virt-manager -> QEMU/KVM 우클릭 -> 상세정보 -> 자동연결에 체크
 
 설치가 완료되었습니다! 이제 KVM을 사용할 수 있습니다.
