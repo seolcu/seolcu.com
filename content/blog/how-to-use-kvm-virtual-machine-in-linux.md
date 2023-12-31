@@ -9,19 +9,17 @@ cover:
   caption: ""
 ---
 
-# Virtual Machine
-
 If you are a Linux user, you may have encountered a situation where you need to use Windows.
 Or, you may want to test another Linux distro without installing it on your computer.
 In this case, you can use a **virtual machine**.
 
-## What is a virtual machine?
+# What is a virtual machine?
 
 A virtual machine is a virtual computer that runs on your computer.
 It is a software that emulates a computer, and you can install an operating system on it and use it like a real computer.
 You can safely make a lot of virtual machines on your computer, and you can delete them whenever you want.
 
-## How can I use a virtual machine?
+# How can I use a virtual machine?
 
 In Linux, you need two components to use a virtual machine.
 
