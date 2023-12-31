@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 draft: false
+comments: false
 ---
 
 # 🐧 seolcu
