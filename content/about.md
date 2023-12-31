@@ -8,7 +8,7 @@ draft: false
 Welcome! My name is **Gyuwon Seol**, and I am a sophomore at the [Ajou University](https://www.ajou.ac.kr/en/index.do), majoring in Software Engineering.
 I live in South Korea.
 
-- I can code in `python`, `JavaScript`, `C`, and `bash`.
+- I can code in `Python`, `JavaScript`, `C`, and `Bash`.
 - I am familiar with `React`, `Linux`, and `Git`.
 - I am interested in `System Hacking`, `Linux Desktop Environments`, `Homelab`, and `Privacy`.
 
@@ -18,7 +18,7 @@ I live in South Korea.
 
 ## seolcu.com (2023-12-29 ~ )
 
-![screenshot of seolcu.com](blog-screenshot.png)
+![screenshot of seolcu.com](/about/blog-screenshot.png)
 
 [Github Repository](https://github.com/seolcu/seolcu.com)
 
@@ -28,18 +28,18 @@ It is built with [Hugo](https://gohugo.io/) and [PaperMod Theme](https://github.
 
 ## linux-setup-script (2023-07-14 ~ )
 
-![screenshot of linux-setup-script](linux-setup-script-screenshot.png)
+![screenshot of linux-setup-script](/about/linux-setup-script-screenshot.png)
 
 [Github Repository](https://github.com/seolcu/linux-setup-script)
 
 My personal Linux setup script to be productive after distrohopping.
 Designed only for my personal use, but you can use it if you want.
 
-It is built with [python](https://www.python.org/).
+It is built with [Python](https://www.python.org/).
 
 ## ajou-cafeteria (2023-11-15 ~ 2023-12-04)
 
-![screenshot of ajou-cafeteria](ajou-cafeteria-screenshot.png)
+![screenshot of ajou-cafeteria](/about/ajou-cafeteria-screenshot.png)
 
 [Link to the website](https://ajou-cafeteria.vercel.app)
 
@@ -62,7 +62,7 @@ It is built with [React](https://react.dev), [Vite](https://vitejs.dev/) and [Ta
 
 ## ajou-ground (2023-03-18 ~ 2023-03-19)
 
-![screenshot of ajou-ground](ajou-ground-screenshot.gif)
+![screenshot of ajou-ground](/about/ajou-ground-screenshot.gif)
 
 [Link to the website](https://ajou.dev/)
 
@@ -78,7 +78,7 @@ It is built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwind
 
 ## hanbit27 (2021-09-01 ~ 2021-12-23)
 
-![screenshot of hanbit27](hanbit27-screenshot.png)
+![screenshot of hanbit27](/about/hanbit27-screenshot.png)
 
 [Link to the website](https://hanbit27.vercel.app/)
 
@@ -91,7 +91,7 @@ It is built with [Next.js](https://nextjs.org/), [Bootstrap](https://getbootstra
 
 ## zzapgo-life (2021-03-01 ~ 2021-10-31)
 
-{{< figure src="zzapgo-life-screenshot.jpg" width="500" >}}
+{{< figure src="/about/zzapgo-life-screenshot.jpg" width="500" >}}
 
 [Link to the website](https://zzapgo-life.vercel.app/)
 
