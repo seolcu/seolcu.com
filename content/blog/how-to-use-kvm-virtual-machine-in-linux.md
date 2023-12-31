@@ -89,8 +89,9 @@ Finally, for networking, you need to create a virtual network(NAT) and set it to
 
 ```bash
 sudo virsh net-autostart default
-# or you can do it graphically in virt-manager -> connection details -> autostart
 ```
+
+> or you can do it graphically in virt-manager -> right click on QEMU/KVM -> connection details -> check autostart
 
 Done! You can now use virt-manager with KVM.
 
