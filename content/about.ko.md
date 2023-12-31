@@ -23,7 +23,7 @@ comments: false
 
 [Github 저장소](https://github.com/seolcu/seolcu.com)
 
-현재 방문 중인 나의 개인 웹사이트입니다.
+현재 방문 중이신 제 개인 웹사이트입니다.
 
 [Hugo](https://gohugo.io/)와 [PaperMod 테마](https://github.com/adityatelange/hugo-PaperMod)로 구축되었습니다.
 
@@ -57,7 +57,7 @@ comments: false
 
 프로토타입이므로 **실제 정보를 제공하지 않습니다.**
 
-이 프로젝트는 아주대학교의 '인공지능입문' 과목을 위해 만들어졌습니다.
+이 프로젝트는 아주대학교의 '인공지능입문' 조별과제를 위해 만들어졌습니다.
 
 [React](https://react.dev), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/)로 구축되었습니다.
 
@@ -73,7 +73,7 @@ comments: false
 
 프로토타입이므로 **실제 정보를 제공하지 않습니다.**
 
-이 프로젝트는 'AjouThon'이라는 학교 해커톤에서 'Chakra7' 팀이 만들었으며 **2등**을 차지했습니다.
+이 프로젝트는 'AjouThon'이라는 학교 해커톤에서 제 팀 'Chakra7'이 만들었으며 **2등**을 차지했습니다.
 
 [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/)로 구축되었습니다.
 
@@ -85,7 +85,7 @@ comments: false
 
 [Github 저장소](https://github.com/seolcu/hanbit27)
 
-'광양제철고등학교'의 27회 축제를 위해 공식적으로 사용된 온라인 쇼핑몰 웹사이트입니다.
+'광양제철고등학교'의 제 27회 축제를 위해 공식적으로 사용된 온라인 쇼핑몰 웹사이트입니다.
 축제가 끝났기 때문에 상품을 더 이상 보여주지 않습니다.
 
 [Next.js](https://nextjs.org/), [Bootstrap](https://getbootstrap.com/), [Firebase](https://firebase.google.com/)로 구축되었습니다.
