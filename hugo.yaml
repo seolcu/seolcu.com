@@ -18,7 +18,6 @@ menu:
       weight: 30
 
 params:
-  defaultTheme: dark
   env: production
   homeInfoParams:
     Title: "🐧 seolcu"
