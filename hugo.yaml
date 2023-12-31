@@ -50,6 +50,8 @@ params:
   comments: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
+  showToc: true
+  tocOpen: true
 
 services:
   disqus:
