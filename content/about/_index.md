@@ -1,7 +1,7 @@
-+++
-title = 'About Me'
-draft = false
-+++
+---
+title: "About Me"
+draft: false
+---
 
 # 🐧 seolcu
 
@@ -45,7 +45,7 @@ It is built with [python](https://www.python.org/).
 
 [Github Repository](https://github.com/seolcu/ajou-cafeteria)
 
-A simple prototype PWA that provides information about `Ajou University`'s cafeterias.
+A simple prototype PWA that provides information about Ajou University's cafeterias.
 It was supposed to provide information about:
 
 - Today's menu
@@ -56,7 +56,7 @@ It was supposed to provide information about:
 
 Since it is a prototype, it **does not provide the real information.**
 
-This project was built for the `AI Introduction` course at `Ajou University`.
+This project was built for the 'AI Introduction' course at Ajou University.
 
 It is built with [React](https://react.dev), [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
@@ -68,11 +68,11 @@ It is built with [React](https://react.dev), [Vite](https://vitejs.dev/) and [Ta
 
 [Github Repository](https://github.com/AJOUChakra7/ajou-ground)
 
-A prototype website to make a reservation for the `Ajou University`'s playground.
+A prototype website to make a reservation for the Ajou University's playground.
 
 Since it is a prototype, it **does not provide the real information.**
 
-This project was built by my team, `Chakra7`, in a school hackathon called `AjouThon`, and it won the **2nd place**.
+This project was built by my team, 'Chakra7', in a school hackathon called 'AjouThon', and it won the **2nd place**.
 
 It is built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Express](https://expressjs.com/), and [MongoDB](https://www.mongodb.com/).
 
@@ -84,7 +84,7 @@ It is built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwind
 
 [Github Repository](https://github.com/seolcu/hanbit27)
 
-An online shopping mall website officially used for the 27th annual festival of the `GwangyangJecheol High School`.
+An online shopping mall website officially used for the 27th annual festival of the 'GwangyangJecheol High School'.
 Since the festival is over, the website no longer shows the products.
 
 It is built with [Next.js](https://nextjs.org/), [Bootstrap](https://getbootstrap.com/), and [Firebase](https://firebase.google.com/).
@@ -97,7 +97,7 @@ It is built with [Next.js](https://nextjs.org/), [Bootstrap](https://getbootstra
 
 [Github Repository](https://github.com/seolcu/zzapgo-life)
 
-A PWA that provides information about the `GwangyangJecheol High School`.
+A PWA that provides information about the 'GwangyangJecheol High School'.
 It provides information about:
 
 - Today's menu

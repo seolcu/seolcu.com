@@ -1,5 +1,4 @@
 baseURL: https://seolcu.com/
-languageCode: en-us
 title: seolcu.com
 theme: PaperMod
 
@@ -13,6 +12,10 @@ menu:
       name: Blog
       url: /blog/
       weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
 
 params:
   defaultTheme: dark
@@ -46,7 +49,21 @@ params:
   # ShowShareButtons: true
   # ShowReadingTime: true
   comments: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
 
 services:
   disqus:
     shortname: seolcu-com
+
+languages:
+  en:
+    disabled: false
+    languageCode: en-us
+    languageName: English
+    weight: 1
+  ko:
+    disabled: false
+    languageCode: ko-kr
+    languageName: Korean
+    weight: 2
