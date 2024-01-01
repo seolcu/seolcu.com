@@ -6,7 +6,7 @@ tags: ["Mogakso"]
 cover:
   image: "/cover/linux-basics-for-hackers-english.png"
   alt: "Book cover of Linux Basics for Hackers"
-  caption: "Linux Basics for Hackers by OccupyTheWeb"
+  caption: "'Linux Basics for Hackers' by OccupyTheWeb"
 ---
 
 > Mogakso(모각소) is a new Korean term that means 'gather and code individually'.
