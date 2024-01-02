@@ -27,7 +27,7 @@ ssh-keygen
 
 > if you want to generate a RSA key pair, use the `-t rsa` option.
 
-# Where are my SSH keys?
+## Where are my SSH keys?
 
 `ssh-keygen` saves the **private key** in `~/.ssh/id_ed25519` and the **public key** in `~/.ssh/id_ed25519.pub`.
 
