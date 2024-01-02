@@ -29,7 +29,7 @@ ssh-keygen
 
 ## SSH 키는 어디에 있나요?
 
-`ssh-keygen`은 **개인 키(비공개 키)**를 `~/.ssh/id_ed25519`에, **공개 키**를 `~/.ssh/id_ed25519.pub`에 저장합니다.
+`ssh-keygen`은 **개인 키**를 `~/.ssh/id_ed25519`에, **공개 키**를 `~/.ssh/id_ed25519.pub`에 저장합니다.
 
 > RSA 키 쌍을 생성한 경우, 개인 키는 `~/.ssh/id_rsa`에, 공개 키는 `~/.ssh/id_rsa.pub`에 저장됩니다.
 
