@@ -55,7 +55,7 @@ E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are y
 
 # 권한 관리하기
 
-파일이나 폴더의 권한은 **소유자(owner)**, **그룹(group)**, **다른 사용자(others)**에 의해 관리됩니다.
+파일이나 폴더의 권한은 **소유자(owner)**, **그룹(group)**, **다른 사용자(others)** 에 의해 관리됩니다.
 
 ## 소유자, 그룹, 다른 사용자 확인하기
 
