@@ -115,7 +115,7 @@ $ chmod o-r example.txt # Remove readable permission from others
 In this post, I explained how to manage permission of files and folders in Linux.
 If you have any questions or suggestions, please leave a comment below.
 
-> This post is written for **2024 Winter Mogakso**.
+> This post was written for the **2024 Winter Mogakso Activity**.
 
 # References
 
