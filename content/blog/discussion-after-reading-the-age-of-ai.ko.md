@@ -1,7 +1,7 @@
 ---
 title: "<AI 이후의 세계>를 읽은 후의 토의"
 date: "2024-01-15T13:52:24+09:00"
-draft: false
+draft: true
 tags: ["Mogakso", "AI", "Book"]
 cover:
   image: "/cover/the-age-of-ai.jpeg"

@@ -1,7 +1,7 @@
 ---
 title: "Discussion After Reading <The Age of AI>"
 date: "2024-01-15T13:52:24+09:00"
-draft: false
+draft: true
 tags: ["Mogakso", "AI", "Book"]
 cover:
   image: "/cover/the-age-of-ai.jpeg"
