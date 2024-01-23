@@ -11,9 +11,9 @@ comments: false
 
 - `Python`, `JavaScript`, `C`, `Bash`로 코딩할 수 있습니다.
 - `React`, `Linux`, `Git`에 익숙합니다.
-- `시스템 해킹`, `Linux 데스크탑 환경`, `홈랩`, `개인정보 보호`에 관심이 있습니다.
+- `시스템 해킹`, `Linux`, `개인정보 보호`에 관심이 있습니다.
 
-> _여담이지만, 저는 일상적으로 `Debian Testing`과 `GNOME`을 사용합니다._
+> _여담이지만, 저는 일상적으로 `Fedora`와 `GNOME`을 사용합니다._
 
 # 나의 프로젝트들
 

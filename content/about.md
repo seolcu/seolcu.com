@@ -11,9 +11,9 @@ I live in South Korea.
 
 - I can code in `Python`, `JavaScript`, `C`, and `Bash`.
 - I am familiar with `React`, `Linux`, and `Git`.
-- I am interested in `System Hacking`, `Linux Desktop Environments`, `Homelab`, and `Privacy`.
+- I am interested in `System Hacking`, `Linux`, and `Privacy`.
 
-> _BTW, I use `Debian Testing` with `GNOME` as my daily driver._
+> _BTW, I use `Fedora` with `GNOME` as my daily driver._
 
 # My Projects
 
