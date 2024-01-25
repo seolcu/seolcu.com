@@ -10,13 +10,13 @@ cover:
   caption: "Riced Sway by a deleted user in Reddit"
 ---
 
-There are various desktop environments available in Linux. Each desktop environment has unique features, allowing users to choose based on their preferences. In this post, we will introduce different desktop environments and window managers (compositors) in Linux.
+There are various desktop environments available in the Linux ecosystem. Each desktop environment has its unique features, allowing users to choose based on their preferences. In this article, we will introduce various desktop environments and window managers (compositors) in Linux.
 
 # What is a Desktop Environment?
 
-**Desktop Environment** (DE) is a collection of programs that provide a **Graphical User Interface (GUI)** on a computer.
+**Desktop Environment (DE)** is a collection of programs that provide a **Graphical User Interface (GUI)** on a computer.
 
-It includes everything from basic programs like file managers, text editors, and terminals to visible elements such as panels, notification windows, login screens, and window managers. Here are some representative desktop environments:
+It includes basic programs like file managers, text editors, terminals, as well as visible elements such as panels, notification windows, login screens, and window managers. Here are some representative desktop environments:
 
 ## 1. GNOME
 
@@ -32,18 +32,20 @@ It includes everything from basic programs like file managers, text editors, and
 | ----- | -------------- | ------- |
 | GNOME | X11, Wayland   | GTK     |
 
-**Advantages:**
+**GNOME** is one of the most popular desktop environments, widely used as the default desktop for Ubuntu.
 
-1. Simple and unified design
+**Pros:**
+
+1. Simple and consistent design
 2. Smooth animation effects
-3. Smooth touchscreen and touchpad gestures
+3. Touchscreen and touchpad gestures
 4. Excellent scalability
-5. Large community
+5. Large community support
 
-**Disadvantages:**
+**Cons:**
 
-1. Limited features
-2. Difficult customization
+1. Limited customization options
+2. Steeper learning curve
 3. High resource usage
 
 ## 2. KDE Plasma
@@ -60,15 +62,17 @@ It includes everything from basic programs like file managers, text editors, and
 | ---------- | -------------- | ------- |
 | KDE Plasma | X11, Wayland   | Qt      |
 
-**Advantages:**
+**KDE Plasma** is another widely known desktop environment, often praised for its rich features and easy customization.
 
-1. Wide range of features
+**Pros:**
+
+1. Extensive feature set
 2. Excellent scalability
-3. Extensive customization options
-4. Low resource usage
-5. Large community
+3. Diverse customization options
+4. Lower resource usage
+5. Large community support
 
-**Disadvantages:**
+**Cons:**
 
 1. Complexity due to numerous features
 2. Relatively more bugs
@@ -87,20 +91,22 @@ It includes everything from basic programs like file managers, text editors, and
 | ---- | -------------- | ------- |
 | Xfce | X11            | GTK     |
 
-**Advantages:**
+**Xfce** may be less famous than GNOME and KDE Plasma, but it is known for its lightweight resource usage and simplicity.
 
-1. Light resource usage
+**Pros:**
+
+1. Lightweight resource usage
 2. Low overhead
-3. Very fast speed
+3. Very fast performance
 4. Easy customization
 5. Modular design
 
-**Disadvantages:**
+**Cons:**
 
-1. Suboptimal default design
+1. Basic default design
 2. Lack of Wayland support (in development)
-3. Relatively smaller community
-4. Absence of its own applications
+3. Smaller community
+4. Absence of dedicated applications
 
 ## 4. Cinnamon
 
@@ -116,18 +122,20 @@ It includes everything from basic programs like file managers, text editors, and
 | -------- | -------------- | ------- |
 | Cinnamon | X11, Wayland   | GTK     |
 
-**Advantages:**
+**Cinnamon** is a desktop environment built on the GNOME framework, known for its familiar design and user-friendly features. It is the default desktop for Linux Mint.
+
+**Pros:**
 
 1. Familiar design
-2. Rich features
-3. Fast speed
+2. Abundance of features
+3. Fast performance
 4. Easy customization
-5. Large community
+5. Large community support
 
-**Disadvantages:**
+**Cons:**
 
 1. Limited Wayland support
-2. Suboptimal default design
+2. Basic default design
 
 ## 5. LXQt
 
@@ -143,30 +151,36 @@ It includes everything from basic programs like file managers, text editors, and
 | ---- | -------------- | ------- |
 | LXQt | X11            | Qt      |
 
-**Advantages:**
+**LXQt** is a lightweight desktop environment based on LXDE, historically used as the default desktop for Raspberry Pi OS.
 
-1. Extremely light resource usage
-2. Very fast speed
+**Pros:**
+
+1. Extremely lightweight resource usage
+2. Very fast performance
 3. Easy customization
 4. Modular design
 
-**Disadvantages:**
+**Cons:**
 
 1. Limited features
 2. Lack of Wayland support
 3. Small community
-4. Absence of its own applications
-5. Suboptimal default design
+4. Absence of dedicated applications
+5. Basic default design
 
 ---
 
 # What is a Window Manager?
 
-**Window Manager** (WM) is a program that manages **windows** on a computer.
+**Window Manager (WM)** is a program that manages windows on a computer.
 
-The window manager handles the position, size, borders, buttons, etc., of windows. Since the window manager is part of the desktop environment, it is included in it. However, some window managers can be used independently of the desktop environment and are called **Standalone Window Managers**.
+The window manager handles the position, size, borders, buttons, etc., of windows. Since it is part of the desktop environment, it is included in the desktop environment.
 
-Standalone window managers are lighter, faster, and offer more extensive customization compared to desktop environments. However, they are more challenging to use and configure, and some programs may not function correctly. Here are some representative standalone window managers:
+However, some window managers can be used independently of the desktop environment. These window managers are referred to as **Standalone Window Managers**.
+
+Standalone window managers are known for being **lightweight, fast, and offering extensive customization** compared to desktop environments. However, they are more challenging to use and configure than desktop environments, and some programs may not function correctly.
+
+Here are some representative standalone window managers:
 
 ## 1. Sway
 
@@ -182,15 +196,17 @@ Standalone window managers are lighter, faster, and offer more extensive customi
 | ---- | -------------- | --------------- |
 | Sway | Wayland        | Tiling (Manual) |
 
-**Advantages:**
+**Sway** is a **tiling window manager** based on Wayland. It was created as a replacement for the X11-based i3 window manager and shares a similar usage pattern.
+
+**Pros:**
 
 1. Similar usage to i3
-2. Large community
+2. Large community support
 
-**Disadvantages:**
+**Cons:**
 
-1. Inconvenient for users unfamiliar with manual tiling
-2. Limited support for multilingual input due to Wayland characteristics
+1. Manual tiling can be inconvenient for users unfamiliar with the tiling method
+2. Due to the nature of Wayland WM, multilingual input may not work correctly
 
 ## 2. AwesomeWM
 
@@ -202,12 +218,14 @@ Standalone window managers are lighter, faster, and offer more extensive customi
 | ------- | -------------- | ---------------- |
 | Awesome | X11            | Tiling (Dynamic) |
 
-**Advantages:**
+**AwesomeWM** is a tiling window manager based on X11. It provides basic functionalities like a status bar and launcher, making it relatively accessible to beginners.
 
-1. Easily change layouts with dynamic tiling
-2. Basic features like status bar and launcher included, making it user-friendly
+**Pros:**
 
-**Disadvantages:**
+1. Easy layout changes due to dynamic tiling
+2. Provides basic functionalities for beginners
+
+**Cons:**
 
 1. Lack of Wayland support
 
@@ -221,18 +239,20 @@ Standalone window managers are lighter, faster, and offer more extensive customi
 | ---- | ------------------- | ---------------- |
 | DWM  | X11, (DWL: Wayland) | Tiling (Dynamic) |
 
-**Advantages:**
+**DWM** is a tiling window manager based on X11. It stands out for its speed, low resource usage, and extensive customization options. However, it requires manual compilation and is challenging to configure.
 
-1. Very fast speed
-2. Extremely light resource usage
-3. Extensive customization options
-4. Easy layout changes with dynamic tiling
+**Pros:**
 
-**Disadvantages:**
+1. Very fast performance
+2. Extremely lightweight resource usage
+3. Extensive customization
+4. Dynamic tiling for easy layout changes
 
-1. Very challenging configuration and customization
+**Cons:**
+
+1. Challenging configuration and customization
 2. Requires programming knowledge
-3. Compilation required
+3. Compiling is necessary
 
 ## 4. Openbox
 
@@ -244,14 +264,16 @@ Standalone window managers are lighter, faster, and offer more extensive customi
 | ------- | -------------- | -------- |
 | Openbox | X11            | Stacking |
 
-**Advantages:**
+**Openbox** is a stacking window manager based on X11. It is known for its familiar usage and easy customization, but development is no longer active.
+
+**Pros:**
 
 1. Familiar usage
 2. Easy customization
 
-**Disadvantages:**
+**Cons:**
 
-1. No longer under active development
+1. No longer actively developed
 2. Lack of Wayland support
 
 ## 5. Hyprland
@@ -264,23 +286,26 @@ Standalone window managers are lighter, faster, and offer more extensive customi
 | -------- | -------------- | ---------------- |
 | Hyprland | Wayland        | Tiling (Dynamic) |
 
-**Advantages:**
+**Hyprland** is a Wayland-based tiling window manager that focuses on flashy design and animations, differentiating itself from other lightweight window managers.
 
-1. Stunning design and animations
+**Pros:**
+
+1. Flashy design and animations
 2. Touchpad gesture support
 3. Plugin support through hyprpm
-4. Easy layout changes with dynamic tiling
-5. Rapid development and large community
+4. Dynamic tiling for easy layout changes
+5. Rapid development
+6. Large community support
 
-**Disadvantages:**
+**Cons:**
 
-1. Limited multilingual input support due to Wayland
+1. Wayland WM may have issues with multilingual input
 2. Heavier resource usage compared to other standalone window managers
-3. Still in the early stages of development
+3. Relatively unstable as a new window manager
 4. Limited distribution support
 
 # Conclusion
 
-There are many more desktop environments and window managers available. It is recommended to try different ones and choose the desktop environment or standalone window manager that best suits your preferences.
+These are just a few examples of the diverse desktop environments and window managers in the Linux world. Explore various options, try them out, and choose the one that best suits your preferences and needs.
 
-> This post was written for the **2024 Winter Mogakso Activity**.
+> This post was written for the **2024 Winter Mogakso Activity.**
