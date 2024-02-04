@@ -4,9 +4,9 @@ date: "2024-02-03T21:19:47+09:00"
 draft: false
 tags: ["Linux", "Bash", "System Administration", "Programming", "Mogakso"]
 cover:
-  image: ""
-  alt: ""
-  caption: ""
+  image: "/cover/bash.png"
+  alt: "Bash 로고"
+  caption: "Bash"
 ---
 
 Bash는 Linux 및 기타 Unix와 유사한 운영 체제에서 널리 사용되는 강력한 셸 스크립팅 언어입니다. 자동화 작업 및 작은 프로그램 작성에 매우 유용합니다. 이 글에서는 Bash 스크립팅의 기초 및 시작 방법에 대해 논의하겠습니다.

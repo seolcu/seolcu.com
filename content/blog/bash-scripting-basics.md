@@ -4,11 +4,12 @@ date: "2024-02-03T21:19:47+09:00"
 draft: false
 tags: ["Linux", "Bash", "System Administration", "Programming", "Mogakso"]
 cover:
-  image: ""
-  alt: ""
-  caption: ""
+  image: "/cover/bash.png"
+  alt: "Logo of Bash"
+  caption: "Bash"
 ---
 
+![alt text](image.png)
 Bash is a powerful shell scripting language that is widely used on Linux and other Unix-like operating systems.
 It is very useful for automating tasks and writing small programs.
 In this article, we will discuss the basics of Bash scripting and how to get started with it.
