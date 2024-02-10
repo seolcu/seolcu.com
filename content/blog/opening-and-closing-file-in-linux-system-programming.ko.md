@@ -61,4 +61,65 @@ int fclose(FILE *stream);
 
 [Github](https://github.com/seolcu/inflearn-lsp/blob/master/file-basic/file_open.c)
 
+```c
+// Section 1: 파일 열기/닫기
+#include <stdio.h>
+#include <string.h> // memset을 위해 필요함
+
+int write_to_file(void)
+{
+    FILE *fp;
+
+    fp = fopen("data", "w");
+    if (fp == NULL) // 파일 오픈 실패시
+    {
+        perror("fopen error\n"); // perror는 에러를 출력
+        return -1;
+    }
+
+    fputs("Hello world!", fp);
+    fclose(fp);
+
+    return 0;
+}
+
+int read_from_file(void)
+{
+    FILE *fp;
+    char buf[1024];
+
+    fp = fopen("data", "r");
+    if (fp == NULL)
+    {
+        perror("fopen error\n");
+        return -1;
+    }
+
+    memset(buf, 0, sizeof(buf)); // 메모리 비우기
+    fgets(buf, sizeof(buf), fp); // 파일의 내용을 buf에 읽기
+    fclose(fp);
+
+    printf("%s\n", buf);
+
+    return 0;
+}
+
+int main(int argc, char **argv)
+{
+    if (write_to_file())
+    {
+        perror("write to file\n");
+        return -1;
+    }
+
+    if (read_from_file())
+    {
+        perror("read to file\n");
+        return -1;
+    }
+
+    return 0;
+}
+```
+
 > 이 게시물은 **2024 동계 모각소 활동**을 위해 작성되었습니다.
