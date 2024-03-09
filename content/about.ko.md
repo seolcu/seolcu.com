@@ -11,7 +11,7 @@ comments: false
 
 - `Python`, `JavaScript`, `C`, `Bash`로 코딩할 수 있습니다.
 - `Linux`, `React`, `Git`, `Markdown` 에 익숙합니다.
-- `Linux`, `Web`, `Privacy`, `Security`에 관심이 있습니다.
+- `Linux`, `Web`, `Privacy`, `Cybersecurity`에 관심이 있습니다.
 
 # 나의 프로젝트들
 
