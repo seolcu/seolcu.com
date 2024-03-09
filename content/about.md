@@ -11,7 +11,7 @@ I live in South Korea.
 
 - I can code in `Python`, `JavaScript`, `C`, and `Bash`.
 - I am familiar with `Linux`, `React`, `Git`, and `Markdown`.
-- I am interested in `Linux`, `Web`, `FOSS`, and `Privacy`.
+- I am interested in `Linux`, `Web`, `Privacy`, and `Security`.
 
 > _BTW, I use `Fedora` with `GNOME` as my daily driver._
 
