@@ -10,8 +10,8 @@ Welcome! My name is **Gyuwon Seol**, and I am a sophomore at the [Ajou Universit
 I live in South Korea.
 
 - I can code in `Python`, `JavaScript`, `C`, and `Bash`.
-- I am familiar with `React`, `Linux`, and `Git`.
-- I am interested in `System Hacking`, `Linux`, and `Privacy`.
+- I am familiar with `Linux`, `React`, `Git`, and `Markdown`.
+- I am interested in `Linux`, `Web`, `FOSS`, and `Privacy`.
 
 > _BTW, I use `Fedora` with `GNOME` as my daily driver._
 

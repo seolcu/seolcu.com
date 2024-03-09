@@ -10,10 +10,8 @@ comments: false
 저는 대한민국에 살고 있습니다.
 
 - `Python`, `JavaScript`, `C`, `Bash`로 코딩할 수 있습니다.
-- `React`, `Linux`, `Git`에 익숙합니다.
-- `시스템 해킹`, `Linux`, `개인정보 보호`에 관심이 있습니다.
-
-> _여담이지만, 저는 일상적으로 `Fedora`와 `GNOME`을 사용합니다._
+- `Linux`, `React`, `Git`, `Markdown` 에 익숙합니다.
+- `Linux`, `Web`, `FOSS`, `Privacy`에 관심이 있습니다.
 
 # 나의 프로젝트들
 
