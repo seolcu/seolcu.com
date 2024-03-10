@@ -88,13 +88,13 @@ comments: false
 
 [Next.js](https://nextjs.org/), [Bootstrap](https://getbootstrap.com/), [Firebase](https://firebase.google.com/)로 구축되었습니다.
 
-## zzapgo-life (2021-03-01 ~ 2021-10-31)
+## zzapgo.life (2021-03-01 ~ 2021-10-31)
 
 {{< figure src="/about/zzapgo-life-screenshot.jpg" width="500" >}}
 
 [웹사이트 링크](/about/https://zzapgo-life.vercel.app/)
 
-[Github 저장소](https://github.com/seolcu/zzapgo-life)
+[Github 저장소](https://github.com/seolcu/zzapgo.life)
 
 '광양제철고등학교'에 대한 정보를 제공하는 PWA입니다.
 다음과 같은 정보를 제공합니다:

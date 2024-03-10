@@ -90,13 +90,13 @@ Since the festival is over, the website no longer shows the products.
 
 It is built with [Next.js](https://nextjs.org/), [Bootstrap](https://getbootstrap.com/), and [Firebase](https://firebase.google.com/).
 
-## zzapgo-life (2021-03-01 ~ 2021-10-31)
+## zzapgo.life (2021-03-01 ~ 2021-10-31)
 
 {{< figure src="/about/zzapgo-life-screenshot.jpg" width="500" >}}
 
 [Link to the website](https://zzapgo-life.vercel.app/)
 
-[Github Repository](https://github.com/seolcu/zzapgo-life)
+[Github Repository](https://github.com/seolcu/zzapgo.life)
 
 A PWA that provides information about the 'GwangyangJecheol High School'.
 It provides information about:
