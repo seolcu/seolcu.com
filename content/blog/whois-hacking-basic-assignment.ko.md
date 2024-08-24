@@ -4,7 +4,7 @@ date: "2024-08-24T15:37:01+09:00"
 draft: false
 tags: ["Security", "Whois", "Hacking", "Assignment", "Pwnable"]
 cover:
-  /whois-basic-assignment-3/image: ""
+  image: ""
   alt: ""
   caption: ""
 ---
