@@ -4,7 +4,7 @@ date: "2024-08-24T15:37:01+09:00"
 draft: false
 tags: ["Security", "Whois", "Hacking", "Assignment", "Pwnable"]
 cover:
-  image: ""
+  /whois-basic-assignment-3/image: ""
   alt: ""
   caption: ""
 ---
@@ -13,23 +13,23 @@ cover:
 
 이번 정보보안기초 과제는 gdb를 이용해 주어진 바이너리를 분석하는 것이다.
 
-![alt text](image.png)
+![alt text](/whois-basic-assignment-3/image.png)
 
 우선 분석할 바이너리는 GitHub로 공유되었다. Clone 했더니, `tar`로 압축된 파일이 있어 압축 해제해 주었다.
 
-![alt text](image-1.png)
+![alt text](/whois-basic-assignment-3/image-1.png)
 
 분석해야하는 바이너리는 `Handray` 폴더 속의 `for`과 `if`이다. `file`로 확인해보면 두 파일 모두 리눅스 32bit 바이너리라는 것을 알 수 있다. 따라서 분석을 위해 KVM상에서 LMDE 6 32bit를 돌려 작업환경을 옮겼다.
 
 ## for
 
-![alt text](image-2.png)
+![alt text](/whois-basic-assignment-3/image-2.png)
 
 peda로 `for`를 열어보고 `i fu`로 함수 목록을 확인해보았다. `main` 함수부터 분석해 보기로 했다.
 
 ### main 구조
 
-![alt text](image-3.png)
+![alt text](/whois-basic-assignment-3/image-3.png)
 
 `pd main`으로 보니 위와 같은 결과가 나왔다. 하나하나 분석해보도록 하자.
 
@@ -70,7 +70,7 @@ int var = 0;
 
 첫번째 인자인 `0x804856e`는 주소값이다. 해당 주소에 해당하는 값을 문자열로 확인해보면:
 
-![alt text](image-5.png)
+![alt text](/whois-basic-assignment-3/image-5.png)
 
 첫번째 인자는 `"%d"`라는 사실을 알 수 있다. 이는 `scanf`의 포맷 스트링이다.
 
@@ -103,7 +103,7 @@ func(var);
 
 ### func 구조
 
-![alt text](image-4.png)
+![alt text](/whois-basic-assignment-3/image-4.png)
 
 `func` 함수에 대해 알아보기 위해 `pd func`를 한 결과이다. `jmp`와 `cmp`, `jle`를 보아 반복문이 있다는 것을 짐작할 수 있다.
 
@@ -185,7 +185,7 @@ printf의 인자를 하나하나 해석해보자.
 
 우선 첫번째 인자인 `0x8048560`은 주소값이다. 해당 주소에 해당하는 값을 문자열로 확인해보면:
 
-![alt text](image-6.png)
+![alt text](/whois-basic-assignment-3/image-6.png)
 
 첫번째 인자는 `"%d * %d = %d\n"`라는 사실을 알 수 있다.
 
@@ -285,13 +285,13 @@ int main(){
 
 ## if
 
-![alt text](image-7.png)
+![alt text](/whois-basic-assignment-3/image-7.png)
 
 `for`과 마찬가지로 `i fu`로 함수 목록을 출력했다. `main` 함수부터 분석해보기로 했다.
 
 ### main 구조
 
-![alt text](image-8.png)
+![alt text](/whois-basic-assignment-3/image-8.png)
 
 `pd main`으로 본 결과이다. `for`과 비슷하니, 설명상의 중복을 줄이기 위해 간략히 표현되는 부분들이 있을 것이다.
 
@@ -318,7 +318,7 @@ int var = 0;
 
 `printf` 함수를 호출한다. 인자로 `0x8048580`을 넘겨준다. 해당 주소에 해당하는 값을 문자열로 확인해보면:
 
-![alt text](image-9.png)
+![alt text](/whois-basic-assignment-3/image-9.png)
 
 `"점수를 입력하세요 : "`라는 사실을 알 수 있다. 따라서 `var` 변수는 점수를 입력받는 변수인 것 같다.
 
@@ -369,7 +369,7 @@ func(var);
 
 ### func 구조
 
-![alt text](image-10.png)
+![alt text](/whois-basic-assignment-3/image-10.png)
 
 수많은 `cmp`가 보인다. 특정 조건을 만족하면 `eax`에 리턴값을 저장하고, `+60`으로 이동하여 함수를 종료한다.
 
