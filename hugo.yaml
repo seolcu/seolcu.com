@@ -21,7 +21,7 @@ params:
   env: production
   homeInfoParams:
     Title: "🐧 seolcu"
-    Content: "Software Major Student in South Korea.\n\nInterested in Linux, Web, privacy, and cybersecurity.\n\n**[About Me](/about/)**"
+    Content: "Software major student in South Korea.\n\nInterested in Linux, Web, privacy, and cybersecurity.\n\n**[About Me](/about/)**"
     # profileMode:
     #   enabled: true
     #   title: "seolcu"
