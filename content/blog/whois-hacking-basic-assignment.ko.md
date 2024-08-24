@@ -11,6 +11,8 @@ cover:
 
 # Whois 정보보안기초 과제 3
 
+> 소프트웨어학과 설규원
+
 이번 정보보안기초 과제는 gdb를 이용해 주어진 바이너리를 분석하는 것이다.
 
 ![alt text](/whois-basic-assignment-3/image.png)
